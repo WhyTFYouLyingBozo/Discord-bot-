@@ -1,14 +1,18 @@
-import discord, random
+import discord
+import random
 from discord.ext import commands
 
-TOKEN = "MTA4MDk2MDkwNjgxMDM3NjMxMw.GE-QPS.vcfBtqoxq_eYbOz0tGRtZXDxmnEQMzKVlw0P6A"
+TOKEN = "MTA4MDk2MDkwNjgxMDM3NjMxMw.GkxzzA.7xhMBR2W0tKvDY7wuIb2OmMSJDzBDZQ9LDLy9k"
+
+intents = discord.Intents.default()
+intents.message_content = True
+
+bot = commands.Bot(command_prefix = "$", intents = intents)
 
 
 
 
-
-
-
+bot.run(TOKEN)
 
 """
 import os
