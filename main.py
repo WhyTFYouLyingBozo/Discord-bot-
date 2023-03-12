@@ -1,9 +1,22 @@
+import discord, random
+from discord.ext import commands
+
+TOKEN = "MTA4MDk2MDkwNjgxMDM3NjMxMw.GE-QPS.vcfBtqoxq_eYbOz0tGRtZXDxmnEQMzKVlw0P6A"
+
+
+
+
+
+
+
+
+"""
+import os
 import discord
 import random
 from discord.ext import commands
 
-TOKEN = "MTA4MDk2MDkwNjgxMDM3NjMxMw.Gx8yV7.Ye0yr6_zDobgBnSN3KcXfT8vKtYB0r1hsXYqe8"
-
+TOKEN = os.environ['TOKEN']
 intents = discord.Intents.default()
 intents.message_content = True
 
@@ -33,3 +46,4 @@ async def guess(ctx, num):
 
 
 client.run(TOKEN)
+"""
